@@ -1,0 +1,301 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Atom - Tabs Should render 1`] = `
+<Swipeable
+  className="Tabs"
+  delta={10}
+  disabled={false}
+  flickThreshold={0.6}
+  nodeName="div"
+  onSwipedLeft={[Function]}
+  onSwipedRight={[Function]}
+  preventDefaultTouchmoveEvent={false}
+  rotationAngle={0}
+  stopPropagation={false}
+>
+  <div
+    className="Tabs-header"
+  >
+    <div
+      className="Tabs-buttonsWrapper"
+    >
+      <button
+        className="Tabs-button Tabs-button-active"
+        key="tabOneTitle"
+        onClick={[Function]}
+      >
+        tabOneTitle
+      </button>
+      <button
+        className="Tabs-button"
+        key="tabTwoTitle"
+        onClick={[Function]}
+      >
+        tabTwoTitle
+      </button>
+    </div>
+    <div
+      className="Tabs-activeBarWrapper"
+    >
+      <div
+        className="Tabs-activeBar"
+        style={
+          Object {
+            "transform": "translateX(0%)",
+            "width": "50%",
+          }
+        }
+      >
+        <div
+          className="Tabs-activeBarInner"
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    className="Tabs-body"
+  >
+    <div
+      className="Tabs-list"
+      onTransitionEnd={[Function]}
+      style={
+        Object {
+          "transform": "translateX(-0%)",
+          "width": "200%",
+        }
+      }
+    >
+      <div
+        className="Tabs-item"
+        key="tb-0"
+      >
+        <ScenarioCardList
+          evaluatedSeparator="out of"
+          getData={[Function]}
+          key="list-1"
+          scenarioList={
+            Array [
+              Object {
+                "_coach": Object {
+                  "_id": "5aeafe9474f12e687e2c8a76",
+                },
+                "_company": "5ac33a1eb6c2a8602917029d",
+                "_criterias": Array [
+                  Object {
+                    "_id": "5afeb8fc5d7f59044c67593b",
+                    "info": "Introduction must be clear",
+                    "isActive": true,
+                    "name": "Introduction",
+                    "updatedAt": "2018-05-18T11:29:00.621Z",
+                  },
+                ],
+                "_id": "5afeba955d7f59044c67593e",
+                "info": "details of the scenario",
+                "isActive": true,
+                "name": "Company presentation",
+                "practiceStatus": Object {
+                  "evaluated": 0,
+                  "messages": 0,
+                },
+                "steps": Array [
+                  "step 1",
+                  "step 2",
+                ],
+                "type": "draft",
+                "updatedAt": "2018-05-18T11:35:49.753Z",
+                "video": Object {
+                  "thumb": "http://egosystem.me/wp-content/uploads/2018/03/dazzling-design-nice-pictures-a-human-resources-career-is-not-for-people-brian-walker-of-love-with-words-to-draw-quotes-585x329.jpg",
+                },
+              },
+              Object {
+                "_coach": Object {
+                  "_id": "5aeafe9474f12e687e2c8a76",
+                },
+                "_company": "5ac33a1eb6c2a8602917029d",
+                "_criterias": Array [
+                  Object {
+                    "_id": "5afeb8fc5d7f59044c67593b",
+                    "info": "Introduction must be clear",
+                    "isActive": true,
+                    "name": "Introduction",
+                    "updatedAt": "2018-05-18T11:29:00.621Z",
+                  },
+                ],
+                "_id": "5afeba475d7f59044c67593c",
+                "info": "details of the scenario",
+                "isActive": true,
+                "name": "Company presentation",
+                "practiceStatus": Object {
+                  "evaluated": 0,
+                  "messages": 0,
+                },
+                "steps": Array [
+                  "step 1",
+                  "step 2",
+                ],
+                "type": "draft",
+                "updatedAt": "2018-05-18T11:34:31.481Z",
+                "video": Object {
+                  "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXluDanCbXrqS6ba1nHLqR51R2RilUmJYP1ZGVM26gUvJCEl4g-w",
+                },
+              },
+              Object {
+                "_coach": Object {
+                  "_id": "57fe2450916165b0b8b20111",
+                },
+                "_company": "57fe2450916165b0b8b20aaa",
+                "_criterias": Array [
+                  Object {
+                    "_id": "593f7d5907e94106bdf393a5",
+                    "isActive": true,
+                    "name": "Self introduction",
+                    "updatedAt": "2018-05-09T12:26:48.658Z",
+                  },
+                ],
+                "_id": "574e3a50616165b0b8b55111",
+                "info": "This demo Scenario is designed to introduce you to key product features.",
+                "isActive": true,
+                "name": "Demo Scenario",
+                "practiceStatus": Object {
+                  "messages": 1,
+                },
+                "steps": Array [
+                  "Prepare short personal introduction",
+                  "Record your introduction",
+                  "Evaluate this scenario",
+                ],
+                "type": "current",
+                "updatedAt": "2018-05-18T09:02:56.516Z",
+                "video": Object {
+                  "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9riGPodu4AahAIWo6kPdsKFAqrG-OcWOIYYTq1IYjihech-_G",
+                },
+              },
+            ]
+          }
+          unreadMessagesText={
+            Object {
+              "plural": "new messages",
+              "singular": "new message",
+            }
+          }
+        />
+      </div>
+      <div
+        className="Tabs-item hidden"
+        key="tb-1"
+      >
+        <ScenarioCardList
+          evaluatedSeparator="out of"
+          getData={[Function]}
+          key="list-2"
+          scenarioList={
+            Array [
+              Object {
+                "_coach": Object {
+                  "_id": "5aeafe9474f12e687e2c8a76",
+                },
+                "_company": "5ac33a1eb6c2a8602917029d",
+                "_criterias": Array [
+                  Object {
+                    "_id": "5afeb8fc5d7f59044c67593b",
+                    "info": "Introduction must be clear",
+                    "isActive": true,
+                    "name": "Introduction",
+                    "updatedAt": "2018-05-18T11:29:00.621Z",
+                  },
+                ],
+                "_id": "5afeba955d7f59044c67593e",
+                "info": "details of the scenario",
+                "isActive": true,
+                "name": "Company presentation",
+                "practiceStatus": Object {
+                  "evaluated": 0,
+                  "messages": 0,
+                },
+                "steps": Array [
+                  "step 1",
+                  "step 2",
+                ],
+                "type": "draft",
+                "updatedAt": "2018-05-18T11:35:49.753Z",
+                "video": Object {
+                  "thumb": "http://egosystem.me/wp-content/uploads/2018/03/dazzling-design-nice-pictures-a-human-resources-career-is-not-for-people-brian-walker-of-love-with-words-to-draw-quotes-585x329.jpg",
+                },
+              },
+              Object {
+                "_coach": Object {
+                  "_id": "5aeafe9474f12e687e2c8a76",
+                },
+                "_company": "5ac33a1eb6c2a8602917029d",
+                "_criterias": Array [
+                  Object {
+                    "_id": "5afeb8fc5d7f59044c67593b",
+                    "info": "Introduction must be clear",
+                    "isActive": true,
+                    "name": "Introduction",
+                    "updatedAt": "2018-05-18T11:29:00.621Z",
+                  },
+                ],
+                "_id": "5afeba475d7f59044c67593c",
+                "info": "details of the scenario",
+                "isActive": true,
+                "name": "Company presentation",
+                "practiceStatus": Object {
+                  "evaluated": 0,
+                  "messages": 0,
+                },
+                "steps": Array [
+                  "step 1",
+                  "step 2",
+                ],
+                "type": "draft",
+                "updatedAt": "2018-05-18T11:34:31.481Z",
+                "video": Object {
+                  "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXluDanCbXrqS6ba1nHLqR51R2RilUmJYP1ZGVM26gUvJCEl4g-w",
+                },
+              },
+              Object {
+                "_coach": Object {
+                  "_id": "57fe2450916165b0b8b20111",
+                },
+                "_company": "57fe2450916165b0b8b20aaa",
+                "_criterias": Array [
+                  Object {
+                    "_id": "593f7d5907e94106bdf393a5",
+                    "isActive": true,
+                    "name": "Self introduction",
+                    "updatedAt": "2018-05-09T12:26:48.658Z",
+                  },
+                ],
+                "_id": "574e3a50616165b0b8b55111",
+                "info": "This demo Scenario is designed to introduce you to key product features.",
+                "isActive": true,
+                "name": "Demo Scenario",
+                "practiceStatus": Object {
+                  "messages": 1,
+                },
+                "steps": Array [
+                  "Prepare short personal introduction",
+                  "Record your introduction",
+                  "Evaluate this scenario",
+                ],
+                "type": "current",
+                "updatedAt": "2018-05-18T09:02:56.516Z",
+                "video": Object {
+                  "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9riGPodu4AahAIWo6kPdsKFAqrG-OcWOIYYTq1IYjihech-_G",
+                },
+              },
+            ]
+          }
+          unreadMessagesText={
+            Object {
+              "plural": "new messages",
+              "singular": "new message",
+            }
+          }
+        />
+      </div>
+    </div>
+  </div>
+</Swipeable>
+`;

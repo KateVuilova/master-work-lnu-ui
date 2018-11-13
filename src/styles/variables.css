@@ -1,0 +1,40 @@
+:root {
+	/* Colors */
+	--almostBlack: rgb(32, 34, 34);
+	--black: rgb(0, 0, 0);
+	--black2: rgb(3, 3, 3);
+	--blue: rgb(60, 155, 243);
+	--darkBlue: rgb(0, 82, 204);
+	--grey1: rgb(245, 245, 245);
+	--grey2: rgb(224, 227, 229);
+	--grey3: rgb(147, 152, 154);
+	--grey4: rgb(204, 207, 210);
+	--grey5: rgb(220, 220, 220);
+	--grey6: rgb(229, 229, 229);
+	--grey-blur: rgba(158, 158, 158, .7);
+	--whiteBlue: rgb(153, 204, 255);
+	--purpleBlue: rgb(102, 102, 255);
+	--lightBlue: rgb(77, 166, 255);
+	--midBlue: rgb(51, 153, 255);
+	--white: rgb(255, 255, 255);
+
+	/* Gradients */
+	--redGradient: linear-gradient(320deg, var(--radicalRed), var(--sunsetOrange));
+
+	/* Transparents */
+	--transparentWhite1: rgba(255, 255, 255, .32);
+	--transparentGrey1: rgba(122, 122, 122, .5);
+
+	/* Layout */
+	--borderRadius: 10px;
+	--onboarding-header-height-desktop: 80px;
+	--onboarding-header-height-mobile: 200px;
+	--primary-navigation-width-desktop: 64px;
+	--primary-navigation-height-mobile: 54px;
+	--secondary-navigation-width: 380px;
+	--scenario-section-vertical-padding: 24px;
+
+	/* Font Weights */
+	--normal: 400;
+	--semiBold: 600;
+}

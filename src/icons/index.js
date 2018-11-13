@@ -1,0 +1,12 @@
+export { default as CheckIcon } from './CheckIcon';
+export { default as CloseIcon } from './CloseIcon';
+export { default as DotsIcon } from './DotsIcon';
+export { default as ErrorIcon } from './ErrorIcon';
+export { default as LogOutIcon } from './LogOutIcon';
+export { default as PlusIcon } from './PlusIcon';
+export { default as ProfileIcon } from './ProfileIcon';
+export { default as QuestionIcon } from './QuestionIcon';
+export { default as SearchIcon } from './SearchIcon';
+export { default as SettingsIcon } from './SettingsIcon';
+export { default as SwitchIcon } from './SwitchIcon';
+export { default as WarningIcon } from './WarningIcon';

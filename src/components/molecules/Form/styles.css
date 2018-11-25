@@ -17,11 +17,12 @@
 }
 
 .Form-paragraph {
-	margin-top: 20px;
+	margin-top: 10px;
 }
 
 .Form-form {
 	margin: 0 auto;
+	margin-top: 50px;
 }
 
 @media (max-width: 768px) {

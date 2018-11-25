@@ -1,0 +1,15 @@
+.SignInForm {
+	color: rgb(147, 152, 154);
+	width: 700px;
+}
+
+.SignInForm-formErrorBox {
+	text-align: left;
+}
+
+.SignInForm-button {
+	--grey3: rgb(147, 152, 154);
+
+	background: var(--grey3);
+	color: white;
+}

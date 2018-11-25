@@ -2,8 +2,9 @@
 import React, { Component, createContext } from 'react';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
-import { ButtonWithArrow } from '../../atoms';
-import { TextInput, CheckboxInput } from '..';
+import Button from '../../atoms/Button';
+import TextInput from '../TextInput';
+import CheckboxInput from '../CheckboxInput';
 import './styles.css';
 
 const getClassName = (baseName, { className }) => (
@@ -98,7 +99,7 @@ Form.Checkbox = (props) => (
 );
 
 Form.Button = (props) =>
-	<ButtonWithArrow {...props} type='submit' className={getClassName('Form-buttonWrapper', props)} />;
+	<Button {...props} type='submit' className={getClassName('Form-buttonWrapper', props)} />;
 
 Form.defaultProps = {
 	onSubmit: () => {},

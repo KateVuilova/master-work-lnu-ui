@@ -2,6 +2,7 @@
 	--red: rgb(225, 70, 78);
 	--grey: rgb(177, 177, 177);
 	--borderRadius: 5px;
+	--black2: rgb(3, 3, 3);
 
 	position: relative;
 	align-items: center;
@@ -17,7 +18,7 @@
 	padding: 0;
 	border: 0;
 	background: transparent;
-	color: var(--white);
+	color: black;
 	outline: 0 !important;
 }
 
@@ -29,13 +30,14 @@
 .TextInput {
 	background-color: transparent;
 	border-radius: var(--borderRadius);
-	border: 1px solid var(--white);
-	color: var(--white);
+	border: 1px solid var(--black2);
+	color: black;
 	line-height: 38px;
 	padding: 0 10px;
 	transition: border-color .2s linear;
 	width: 100%;
 	height: 40px;
+	font-size: 14px;
 }
 
 .TextInput::-ms-clear,
@@ -54,7 +56,7 @@
 
 .TextInput::-webkit-input-placeholder {
 	font-size: 14px;
-	color: var(--white);
+	color: black;
 	opacity: .75;
 }
 
@@ -65,7 +67,7 @@
 }
 
 .TextInput-mobileError {
-	color: var(--white);
+	color: black;
 	display: none;
 	font-size: 11px;
 	left: 0;
@@ -86,8 +88,4 @@
 		bottom: -10px;
 		top: unset;
 	}
-}
-
-.TextInput-passwordType {
-	padding-right: 36px;
 }

@@ -1,0 +1,12 @@
+.ItemList {
+	margin: 20px;
+}
+
+.ItemList > li {
+	display: flex;
+	align-items: center;
+}
+
+.ItemList > li + li {
+	border-top: 2px solid white;
+}

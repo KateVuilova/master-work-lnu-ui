@@ -1,0 +1,12 @@
+.BlockList {
+	display: flex;
+}
+
+.BlockList > li {
+	display: flex;
+	align-items: center;
+}
+
+.BlockList > li + li {
+	border-left: 2px solid white;
+}

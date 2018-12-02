@@ -1,0 +1,16 @@
+.CreateTransactionForm-input + ..CreateTransactionForm-input {
+	margin-top: 10px;
+}
+
+.CreateTransactionForm-button {
+	margin-top: 20px;
+	background: aliceblue;
+	color: black;
+	border-radius: 5px;
+	border: 1px solid gray;
+}
+
+.CreateTransactionForm-button:hover {
+	background-color: rgb(255, 233, 206);
+	color: black;
+}

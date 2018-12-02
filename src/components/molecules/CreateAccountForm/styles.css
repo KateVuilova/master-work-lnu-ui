@@ -1,0 +1,23 @@
+.CreateAccountForm-input + .CreateAccountForm-input {
+	margin-top: 10px;
+}
+
+.CreateAccountForm-button {
+	margin-top: 20px;
+	background: aliceblue;
+	color: black;
+	border-radius: 5px;
+	border: 1px solid gray;
+}
+
+.CreateAccountForm-button:hover {
+	background-color: rgb(255, 233, 206);
+	color: black;
+}
+
+.CreateAccountForm-select {
+	width: 100%;
+	height: 40px;
+	background: white;
+	border: 1px solid grey;
+}

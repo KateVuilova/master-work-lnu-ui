@@ -1,0 +1,36 @@
+.Navigation {
+	display: flex;
+	width: 100%;
+	background-color: rgb(11, 59, 102);
+	padding: 0;
+	justify-content: space-between;
+}
+
+.Navigation > li {
+	flex-shrink: 0;
+	width: 200px;
+	height: 40px;
+	list-style: none;
+}
+
+.Navigation > li:first-of-type {
+	border-right: 1px solid white;
+}
+
+.Navigation > li:last-of-type {
+	border-left: 1px solid white;
+}
+
+.Navigation > li:hover {
+	background: var(--lightBlue);
+}
+
+.Navigation > li > a {
+	text-decoration: none;
+	color: white;
+	display: flex;
+	width: 100%;
+	height: 100%;
+	justify-content: center;
+	align-items: center;
+}

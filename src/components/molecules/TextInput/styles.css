@@ -30,7 +30,7 @@
 .TextInput {
 	background-color: transparent;
 	border-radius: var(--borderRadius);
-	border: 1px solid var(--black2);
+	border: 1px solid grey;
 	color: black;
 	line-height: 38px;
 	padding: 0 10px;

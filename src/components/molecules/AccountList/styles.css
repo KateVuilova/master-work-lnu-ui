@@ -1,0 +1,25 @@
+.AccountList {
+	margin: 20px;
+}
+
+.AccountList > li {
+	display: flex;
+	align-items: center;
+}
+
+.AccountList > li + li {
+	border-top: 2px solid white;
+}
+
+.AccountList-button {
+	background: aliceblue;
+	color: black;
+	border-radius: 5px;
+	border: 1px solid gray;
+	margin-bottom: 10px;
+}
+
+.AccountList-button:hover {
+	background-color: rgb(255, 233, 206);
+	color: black;
+}
